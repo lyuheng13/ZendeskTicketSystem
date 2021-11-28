@@ -51,6 +51,7 @@ function App() {
   /*
    * Fetch the tickets based on the current page number.
    * Maximun of 25 of items will be fetched.
+   * The page will keep in the 'loading' status if the remote API has internal errors.
    */
   const fetchTickets = async (currentPage) => {
     try {
