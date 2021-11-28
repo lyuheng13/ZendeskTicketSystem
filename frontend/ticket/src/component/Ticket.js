@@ -1,9 +1,13 @@
 import React from 'react';
 import {Collapse, Tag, Descriptions} from 'antd';
-import './Ticket.css'
 import 'antd/dist/antd.css';
 
+/*
+ * Zendesk Ticket system subcomponent used to demonstrate each ticket
+ * with detailed information as a list.
+ */
 function Tickets (props) {
+
   var Panel = Collapse.Panel;
   const tickets = props.list;
 
@@ -27,11 +31,4 @@ function Tickets (props) {
   )
 }
 
-
-/*
-li key={ticket.id}>
-      {ticket.subject}
-
-    </li>
-*/
 export default Tickets;
