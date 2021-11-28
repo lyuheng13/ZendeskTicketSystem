@@ -37,5 +37,15 @@ Provide a list of ticket information based on the requested page number.
 <br>
 <br>
 
+# Installation / Usage
+ 1. Open the CLI and go the ZEN/app. Input *'node app.js'* in the CLI to start the backend system.
+
+ 2. Open another CLI, go the ZEN/frontend and input *'npm start'* to start the React front-end.
+
+ 3. Once both frontend/backend are started. Using your prefered browser to vists *"http:{your ip address}:3000"* for using the Zendesk Ticket System.
+<br>
+<br>
+
+
 # Diagram
 ![Design Diagram](./diagram.png)
